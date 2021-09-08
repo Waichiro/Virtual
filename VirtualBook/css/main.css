@@ -1,0 +1,150 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #89cefa;
+}
+
+.header {
+    width: 100%;
+    background-color: #89cefa;
+}
+
+
+/*Titulo principal da pagina*/
+
+.topo h1 {
+    font-family: Didot, serif;
+    cursor: default;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    background-color: #89cefa;
+}
+
+
+/* Botoes do menu*/
+
+.menu {
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 500px;
+    width: 25%;
+    float: right;
+    background-color: #dcdcdc;
+}
+
+.menu ul li {
+    padding-top: 40px;
+    display: block;
+    color: darkgray;
+    height: 50px;
+    width: 30%;
+}
+
+.menu ul p {
+    text-transform: uppercase;
+    cursor: default;
+    padding-top: 35px;
+    width: 60%;
+    float: right;
+}
+
+.menu ul li a {
+    padding: 25px 25px;
+    border-radius: 50%;
+    background-color: #00bac0;
+    list-style: none;
+    text-decoration: none;
+    color: darkgray;
+    font-size: 30px;
+}
+
+
+/* onde fica o conteudo do main*/
+
+.principal {
+    width: 70%;
+    height: 100%;
+}
+
+.conteudo {
+    border-radius: 5px;
+    overflow-y: auto;
+    width: 100%;
+    max-height: auto;
+    height: 500px;
+    background-color: #dcdcdc;
+    margin-left: 20px;
+}
+
+.titulo h1 {
+    font-family: Didot, serif;
+    text-align: center;
+    cursor: default;
+}
+
+.container {
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    width: 90%;
+    height: 40px;
+    background-color: darkgray;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.entrada p {
+    padding-top: 6px;
+    margin-left: 5%;
+    width: 90%;
+    cursor: default;
+}
+
+.entrada p:hover {
+    color: #008ad9;
+    transition: 0.5s;
+}
+
+.entrada p a {
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: blanchedalmond;
+    width: 10%;
+    height: 30px;
+    float: right;
+}
+
+.entrada p a img {
+    padding: 3px;
+}
+
+.entrada p a img:hover {
+    transition: 0.5s;
+    background-image: url(../img/seta-direita-colorida.png);
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+
+/* Barra de rolagem estilizada*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: gray;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    /* cor da barra */
+    border-radius: 20px;
+    /* raio da barra */
+    border: 2px solid gray;
+    /* borda da barra */
+}
